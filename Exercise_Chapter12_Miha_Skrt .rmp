@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?><process version="9.8.000">
+  <context>
+    <input/>
+    <output/>
+    <macros/>
+  </context>
+  <operator activated="true" class="process" compatibility="9.8.000" expanded="true" name="Process">
+    <parameter key="logverbosity" value="init"/>
+    <parameter key="random_seed" value="2001"/>
+    <parameter key="send_mail" value="never"/>
+    <parameter key="notification_email" value=""/>
+    <parameter key="process_duration_for_mail" value="30"/>
+    <parameter key="encoding" value="SYSTEM"/>
+    <process expanded="true">
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="BK1" width="90" x="112" y="34">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Breading_Kit/BK_Comment01.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="BK2" width="90" x="112" y="136">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Breading_Kit/BK_Comment02.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="BK3" width="90" x="112" y="238">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Breading_Kit/BK_Comment03.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="BK4" width="90" x="112" y="340">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Breading_Kit/BK_Comment04.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="BK5" width="90" x="112" y="442">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Breading_Kit/BK_Comment05.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="EN1" width="90" x="112" y="544">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Engraver/EN_Comment01.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="EN2" width="90" x="112" y="646">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Engraver/EN_Comment02.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="EN3" width="90" x="112" y="748">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Engraver/EN_Comment03.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="EN4" width="90" x="112" y="850">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Engraver/EN_Comment04.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="EN5" width="90" x="112" y="952">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Engraver/EN_Comment05.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="LR1" width="90" x="112" y="1054">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Laser_Razor/LR_Comment01.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="LR2" width="90" x="112" y="1156">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Laser_Razor/LR_Comment02.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="LR3" width="90" x="112" y="1258">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Laser_Razor/LR_Comment03.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="LR4" width="90" x="112" y="1360">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Laser_Razor/LR_Comment06.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="LR5" width="90" x="112" y="1462">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Laser_Razor/LR_Comment07.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="SC1" width="90" x="112" y="1564">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Scanner/SC_Comment01.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="SC2" width="90" x="112" y="1666">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Scanner/SC_Comment02.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="SC3" width="90" x="112" y="1768">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Scanner/SC_Comment03.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="SC4" width="90" x="112" y="1870">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Scanner/SC_Comment04.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="SC5" width="90" x="112" y="1972">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Scanner/SC_Comment06.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="SH1" width="90" x="112" y="2074">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Smart_Helmet/SH_Comment01.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="SH2" width="90" x="112" y="2176">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Smart_Helmet/SH_Comment02.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="SH3" width="90" x="112" y="2278">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Smart_Helmet/SH_Comment03.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="SH4" width="90" x="112" y="2380">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Smart_Helmet/SH_Comment04.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="SH5" width="90" x="112" y="2482">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Smart_Helmet/SH_Comment05.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="TM1" width="90" x="112" y="2584">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Travell_Mouse/TM_Comment01.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="TM2" width="90" x="112" y="2686">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Travell_Mouse/TM_Comment02.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="TM3" width="90" x="112" y="2788">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Travell_Mouse/TM_Comment03.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="TM4" width="90" x="112" y="2890">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Travell_Mouse/TM_Comment04.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="TM5" width="90" x="112" y="2992">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Travell_Mouse/TM_Comment05.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="TS1" width="90" x="112" y="3094">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Triple_Screen/TS_Comment01.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="TS2" width="90" x="112" y="3196">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Triple_Screen/TS_Comment02.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="TS3" width="90" x="112" y="3298">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Triple_Screen/TS_Comment03.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="TS4" width="90" x="112" y="3400">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Triple_Screen/TS_Comment04.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="TS5" width="90" x="112" y="3502">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Triple_Screen/TS_Comment05.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="WS1" width="90" x="112" y="3604">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Waterproof_Shoes/WS_Comment01.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="WS2" width="90" x="112" y="3706">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Waterproof_Shoes/WS_Comment02.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="WS3" width="90" x="112" y="3808">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Waterproof_Shoes/WS_Comment03.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="WS4" width="90" x="112" y="3910">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Waterproof_Shoes/WS_Comment04.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:read_document" compatibility="9.3.001" expanded="true" height="68" name="WS5" width="90" x="112" y="4012">
+        <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/Waterproof_Shoes/WS_Comment05.txt"/>
+        <parameter key="extract_text_only" value="true"/>
+        <parameter key="use_file_extension_as_type" value="true"/>
+        <parameter key="content_type" value="txt"/>
+        <parameter key="encoding" value="SYSTEM"/>
+      </operator>
+      <operator activated="true" class="text:process_documents" compatibility="9.3.001" expanded="true" height="922" name="Process Documents" width="90" x="246" y="187">
+        <parameter key="create_word_vector" value="true"/>
+        <parameter key="vector_creation" value="TF-IDF"/>
+        <parameter key="add_meta_information" value="true"/>
+        <parameter key="keep_text" value="false"/>
+        <parameter key="prune_method" value="none"/>
+        <parameter key="prune_below_percent" value="3.0"/>
+        <parameter key="prune_above_percent" value="30.0"/>
+        <parameter key="prune_below_rank" value="0.05"/>
+        <parameter key="prune_above_rank" value="0.95"/>
+        <parameter key="datamanagement" value="double_sparse_array"/>
+        <parameter key="data_management" value="auto"/>
+        <process expanded="true">
+          <operator activated="true" class="text:tokenize" compatibility="9.3.001" expanded="true" height="68" name="Tokenize" width="90" x="45" y="34">
+            <parameter key="mode" value="non letters"/>
+            <parameter key="characters" value=".:"/>
+            <parameter key="language" value="English"/>
+            <parameter key="max_token_length" value="3"/>
+          </operator>
+          <operator activated="true" class="text:transform_cases" compatibility="9.3.001" expanded="true" height="68" name="Transform Cases" width="90" x="179" y="34">
+            <parameter key="transform_to" value="upper case"/>
+          </operator>
+          <operator activated="true" class="text:filter_stopwords_english" compatibility="9.3.001" expanded="true" height="68" name="Filter Stopwords (English)" width="90" x="313" y="34"/>
+          <operator activated="true" class="text:filter_stopwords_dictionary" compatibility="9.3.001" expanded="true" height="82" name="Filter Stopwords (Dictionary)" width="90" x="447" y="34">
+            <parameter key="file" value="C:/Users/malns/OneDrive/Dokumenti/inteligentni sistemi/RapidNaloga/Data_exercise/stopWoard.txt"/>
+            <parameter key="case_sensitive" value="false"/>
+            <parameter key="encoding" value="SYSTEM"/>
+          </operator>
+          <operator activated="true" class="text:stem_porter" compatibility="9.3.001" expanded="true" height="68" name="Stem (Porter)" width="90" x="581" y="34"/>
+          <operator activated="true" class="text:generate_n_grams_terms" compatibility="9.3.001" expanded="true" height="68" name="Generate n-Grams (Terms)" width="90" x="715" y="34">
+            <parameter key="max_length" value="2"/>
+          </operator>
+          <connect from_port="document" to_op="Tokenize" to_port="document"/>
+          <connect from_op="Tokenize" from_port="document" to_op="Transform Cases" to_port="document"/>
+          <connect from_op="Transform Cases" from_port="document" to_op="Filter Stopwords (English)" to_port="document"/>
+          <connect from_op="Filter Stopwords (English)" from_port="document" to_op="Filter Stopwords (Dictionary)" to_port="document"/>
+          <connect from_op="Filter Stopwords (Dictionary)" from_port="document" to_op="Stem (Porter)" to_port="document"/>
+          <connect from_op="Stem (Porter)" from_port="document" to_op="Generate n-Grams (Terms)" to_port="document"/>
+          <connect from_op="Generate n-Grams (Terms)" from_port="document" to_port="document 1"/>
+          <portSpacing port="source_document" spacing="0"/>
+          <portSpacing port="sink_document 1" spacing="0"/>
+          <portSpacing port="sink_document 2" spacing="0"/>
+        </process>
+      </operator>
+      <operator activated="true" class="multiply" compatibility="9.8.000" expanded="true" height="103" name="Multiply" width="90" x="380" y="110"/>
+      <operator activated="true" class="concurrency:k_means" compatibility="9.8.000" expanded="true" height="82" name="Clustering" width="90" x="581" y="34">
+        <parameter key="add_cluster_attribute" value="false"/>
+        <parameter key="add_as_label" value="false"/>
+        <parameter key="remove_unlabeled" value="false"/>
+        <parameter key="k" value="3"/>
+        <parameter key="max_runs" value="10"/>
+        <parameter key="determine_good_start_values" value="true"/>
+        <parameter key="measure_types" value="BregmanDivergences"/>
+        <parameter key="mixed_measure" value="MixedEuclideanDistance"/>
+        <parameter key="nominal_measure" value="NominalDistance"/>
+        <parameter key="numerical_measure" value="EuclideanDistance"/>
+        <parameter key="divergence" value="SquaredEuclideanDistance"/>
+        <parameter key="kernel_type" value="radial"/>
+        <parameter key="kernel_gamma" value="1.0"/>
+        <parameter key="kernel_sigma1" value="1.0"/>
+        <parameter key="kernel_sigma2" value="0.0"/>
+        <parameter key="kernel_sigma3" value="2.0"/>
+        <parameter key="kernel_degree" value="3.0"/>
+        <parameter key="kernel_shift" value="1.0"/>
+        <parameter key="kernel_a" value="1.0"/>
+        <parameter key="kernel_b" value="0.0"/>
+        <parameter key="max_optimization_steps" value="100"/>
+        <parameter key="use_local_random_seed" value="false"/>
+        <parameter key="local_random_seed" value="1992"/>
+      </operator>
+      <operator activated="true" class="concurrency:parallel_decision_tree" compatibility="9.8.000" expanded="true" height="103" name="Decision Tree" width="90" x="447" y="340">
+        <parameter key="criterion" value="gain_ratio"/>
+        <parameter key="maximal_depth" value="10"/>
+        <parameter key="apply_pruning" value="true"/>
+        <parameter key="confidence" value="0.1"/>
+        <parameter key="apply_prepruning" value="true"/>
+        <parameter key="minimal_gain" value="0.01"/>
+        <parameter key="minimal_leaf_size" value="2"/>
+        <parameter key="minimal_size_for_split" value="4"/>
+        <parameter key="number_of_prepruning_alternatives" value="3"/>
+      </operator>
+      <connect from_op="BK1" from_port="output" to_op="Process Documents" to_port="documents 1"/>
+      <connect from_op="BK2" from_port="output" to_op="Process Documents" to_port="documents 2"/>
+      <connect from_op="BK3" from_port="output" to_op="Process Documents" to_port="documents 3"/>
+      <connect from_op="BK4" from_port="output" to_op="Process Documents" to_port="documents 4"/>
+      <connect from_op="BK5" from_port="output" to_op="Process Documents" to_port="documents 5"/>
+      <connect from_op="EN1" from_port="output" to_op="Process Documents" to_port="documents 6"/>
+      <connect from_op="EN2" from_port="output" to_op="Process Documents" to_port="documents 7"/>
+      <connect from_op="EN3" from_port="output" to_op="Process Documents" to_port="documents 8"/>
+      <connect from_op="EN4" from_port="output" to_op="Process Documents" to_port="documents 9"/>
+      <connect from_op="EN5" from_port="output" to_op="Process Documents" to_port="documents 10"/>
+      <connect from_op="LR1" from_port="output" to_op="Process Documents" to_port="documents 11"/>
+      <connect from_op="LR2" from_port="output" to_op="Process Documents" to_port="documents 12"/>
+      <connect from_op="LR3" from_port="output" to_op="Process Documents" to_port="documents 13"/>
+      <connect from_op="LR4" from_port="output" to_op="Process Documents" to_port="documents 14"/>
+      <connect from_op="LR5" from_port="output" to_op="Process Documents" to_port="documents 15"/>
+      <connect from_op="SC1" from_port="output" to_op="Process Documents" to_port="documents 16"/>
+      <connect from_op="SC2" from_port="output" to_op="Process Documents" to_port="documents 17"/>
+      <connect from_op="SC3" from_port="output" to_op="Process Documents" to_port="documents 18"/>
+      <connect from_op="SC4" from_port="output" to_op="Process Documents" to_port="documents 19"/>
+      <connect from_op="SC5" from_port="output" to_op="Process Documents" to_port="documents 20"/>
+      <connect from_op="SH1" from_port="output" to_op="Process Documents" to_port="documents 21"/>
+      <connect from_op="SH2" from_port="output" to_op="Process Documents" to_port="documents 22"/>
+      <connect from_op="SH3" from_port="output" to_op="Process Documents" to_port="documents 23"/>
+      <connect from_op="SH4" from_port="output" to_op="Process Documents" to_port="documents 24"/>
+      <connect from_op="SH5" from_port="output" to_op="Process Documents" to_port="documents 25"/>
+      <connect from_op="TM1" from_port="output" to_op="Process Documents" to_port="documents 26"/>
+      <connect from_op="TM2" from_port="output" to_op="Process Documents" to_port="documents 27"/>
+      <connect from_op="TM3" from_port="output" to_op="Process Documents" to_port="documents 28"/>
+      <connect from_op="TM4" from_port="output" to_op="Process Documents" to_port="documents 29"/>
+      <connect from_op="TM5" from_port="output" to_op="Process Documents" to_port="documents 30"/>
+      <connect from_op="TS1" from_port="output" to_op="Process Documents" to_port="documents 31"/>
+      <connect from_op="TS2" from_port="output" to_op="Process Documents" to_port="documents 32"/>
+      <connect from_op="TS3" from_port="output" to_op="Process Documents" to_port="documents 33"/>
+      <connect from_op="TS4" from_port="output" to_op="Process Documents" to_port="documents 34"/>
+      <connect from_op="TS5" from_port="output" to_op="Process Documents" to_port="documents 35"/>
+      <connect from_op="WS1" from_port="output" to_op="Process Documents" to_port="documents 36"/>
+      <connect from_op="WS2" from_port="output" to_op="Process Documents" to_port="documents 37"/>
+      <connect from_op="WS3" from_port="output" to_op="Process Documents" to_port="documents 38"/>
+      <connect from_op="WS4" from_port="output" to_op="Process Documents" to_port="documents 39"/>
+      <connect from_op="WS5" from_port="output" to_op="Process Documents" to_port="documents 40"/>
+      <connect from_op="Process Documents" from_port="example set" to_op="Multiply" to_port="input"/>
+      <connect from_op="Process Documents" from_port="word list" to_port="result 3"/>
+      <connect from_op="Multiply" from_port="output 1" to_op="Clustering" to_port="example set"/>
+      <connect from_op="Multiply" from_port="output 2" to_port="result 2"/>
+      <connect from_op="Clustering" from_port="cluster model" to_port="result 1"/>
+      <portSpacing port="source_input 1" spacing="0"/>
+      <portSpacing port="sink_result 1" spacing="0"/>
+      <portSpacing port="sink_result 2" spacing="0"/>
+      <portSpacing port="sink_result 3" spacing="0"/>
+      <portSpacing port="sink_result 4" spacing="0"/>
+    </process>
+  </operator>
+</process>
