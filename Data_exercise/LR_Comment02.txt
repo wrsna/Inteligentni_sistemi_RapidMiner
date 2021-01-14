@@ -1,0 +1,1 @@
+We’d worked hard and populated the “blinking LED” board with bluetooth. What’s the next? Next year we will print string “Hello, world! I’m SKARP, – the first laser razor with bluetooth!”

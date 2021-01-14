@@ -1,0 +1,3 @@
+Hello,
+I have a MacBook Pro 2017 with Two Thunderbolt 3 ports. One of them is, of course, for power charger, the other connects to a HyperDrive USB-C hub.
+This hub has 3 USB ports, 1 HDMI and 1 USB-C connector. I saw that 1 USB-C provides power+data to 1 monitor. If I connect the second monitor in HDMI, where do I power that second monitor?

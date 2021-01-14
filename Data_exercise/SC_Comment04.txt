@@ -1,0 +1,1 @@
+I was testing and the iOS app is working on the new M1. The app isn’t available thought the AppStore, you need to activate it there. I stablished an access trough the iMazing app and transferred it to the MacBook pro. I don’t have the Scanner yet to test it, but at least I was able to login and add a scanner to the list. Please add the app to the Mac appstore
